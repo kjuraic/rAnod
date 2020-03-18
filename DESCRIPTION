@@ -1,0 +1,15 @@
+Package: rAnod
+Type: Package
+Title: rAnod
+Version: 0.0.1
+Author: person("Krunoslav", "Juraic", email = "kjuraic@irb.hr",
+                  role = c("aut", "cre"))
+Maintainer: Krunoslav Juraic <kjuraic@irb.hr>
+Description: Analysis of anodization data. Read Fluke multimeter data (CSV file). 
+             Plot data. Analize data: compare, fit to theoretical models.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports:
+  utils
+RoxygenNote: 7.0.2

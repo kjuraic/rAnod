@@ -11,5 +11,8 @@ License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
 Imports:
-  utils
+  utils,
+  stringr,
+  forcats,
+  lubridate
 RoxygenNote: 7.0.2

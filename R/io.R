@@ -20,6 +20,7 @@ current_value <- function(df_col){
 #' @param file_name name of CSV file with measured data
 #' @return data.frame() with read data
 #' @importFrom utils read.table
+#' @importFrom forcats %>%
 #' @export
 #' @examples \dontrun{read_fluke_csv("anodizacija_dat.csv")}
 read_fluke_csv <- function(file_name = file.choose()){
